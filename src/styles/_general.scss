@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 2rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 2rem 0;
+    }
+}

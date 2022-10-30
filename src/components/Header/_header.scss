@@ -1,0 +1,60 @@
+.header {
+    .header__section {
+        margin-top: 1rem;
+        overflow: hidden;
+        .header__img__container {
+            margin-right: -10rem;
+            .header__img {
+                padding-left: 2rem;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .header__article {
+            text-align: center;
+            margin-top: 1rem;
+            .header__article__title {
+                font-size: 2.5em;
+                line-height: 1.1;
+            }
+            .header__article__text {
+                margin: 1rem 0;
+                color: gray;
+            }
+            .header__article__button {
+                border: none;
+                border-radius: 25px;
+                padding: 1rem 3rem;
+                font-size: 1.1em;
+                font-weight: 700;
+                color: #fff;
+                background-color: hsl(180, 66%, 49%);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .header {
+        .header__section {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5rem;
+            .header__img__container {
+                margin-right: -5rem;
+                .header__img {
+                    padding-left: 0;
+                }
+            }
+            .header__article {
+                text-align: left;
+                padding: 0 3rem 0 6rem;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.main__cardsection {
+    .main__cardsection__article {
+        background-color: #fff;
+        padding: 1rem 1rem 2rem;
+        margin: 2rem 4rem 5rem;
+        border-radius: 10px;
+        .main__cardsection__image__container {
+            margin-top: -3.7rem;
+            display: flex;
+            justify-content: center;
+            .main__cardsection__image {
+                background-color: #3b3054;
+                padding: 1.5rem;
+                border-radius: 50%;
+            }
+        }
+        .main__cardsection__article__title {
+            margin: 2rem 0 1rem 0;
+            font-size: 1.4em;
+        }
+    
+        .main__cardsection__article__text {
+            color: hsl(0, 0%, 75%);
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .main__cardsection {
+        display: flex;
+        .main__cardsection__article {
+            margin: 2rem 1rem 5rem;
+        }
+    }
+}

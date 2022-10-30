@@ -1,0 +1,15 @@
+.callToAction {
+    background-color: #3b3054;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem;
+    .callToAction__title {
+        margin-bottom: 2rem;
+    }
+    .callToAction__button {
+        color:#fff;
+        background-color: hsl(180, 66%, 49%);
+        padding: 1rem 4rem;
+        border-radius: 35px;
+    }
+}
