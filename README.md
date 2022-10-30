@@ -1,6 +1,6 @@
 # Url Shortening Page
 
-In this project I used the Reactjs library thanks to which I was able to write clean and readable code faster by also separating it into individual components. I also used SCSS preprocesor style this individual components. I used axios library to fetch the data.
+In this project I used the Reactjs library thanks to which I was able to write clean and readable code faster by also separating it into individual components. I also used SCSS style this individual components. I used axios library to fetch the data.
 
 ### The challenge
 
@@ -18,7 +18,7 @@ Users should be able to:
 
 - ReactJS library
 - Semantic HTML5 markup
-- Style with SCSS preprocesor
+- Style with SCSS
 - JavaScript ES6+
 - functional components
 
