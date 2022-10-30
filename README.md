@@ -1,4 +1,4 @@
-# Book List Webpage
+# Url Shortening Page
 
 In this project I used the Reactjs library thanks to which I was able to write clean and readable code faster by also separating it into individual components. I also used SCSS preprocesor style this individual components. I used axios library to fetch the data.
 
