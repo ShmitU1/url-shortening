@@ -17,6 +17,9 @@
             color: hsl(0, 87%, 67%);
             text-align: left;
         }
+        .main__form__input {
+            margin-bottom: 1.5rem;
+        }
         .main__form__input,
         .main__form__button {
             border: none;
@@ -25,9 +28,6 @@
             font-size: 1.1em;
         }
 
-        .main__form__button {
-            margin-top: 1.5rem;
-        }
         .main__form__input {
             &:focus {
                 outline: none;

@@ -289,6 +289,10 @@ a {
   text-align: left;
 }
 
+.main__container .main__form .main__form__input {
+  margin-bottom: 1.5rem;
+}
+
 .main__container .main__form .main__form__input,
 .main__container .main__form .main__form__button {
   border: none;
